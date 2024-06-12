@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: #030637;
+    color: azure;
+    font-family: sans-serif;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        #030637,
+          #3c0753,
+            #720455,
+              #910a67
+    );
+}
+
+.mountain-bg {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    width: 80%;
+    height: 90%;
+    padding: 3rem;
+    background-image:url(mountains-landscape-violet-gradient/2773530.jpg);
+    background-size: cover;
+    border: solid 0.1px;
+    text-align: center;
+}
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Log_in_c {
+    text-align: center;
+    justify-content: center;
+}
+.conteudo {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    border: solid 1px;
+    padding: 1rem;
+    background-color: #3c075361;
+    border-radius: 50px;
+}
+.email_c {
+    display: flex;
+    text-align: start;
+}
+span {
+    display: flex;
+    text-align: start;
+}
+.remind-c {
+    display: flex;
+    flex-direction: row;
+}
+input {
+    display: flex;
+}
+a {
+    display: flex;
+    color: rgba(255, 255, 255, 0.327);
+    text-decoration: underline;
+}
+button {
+    width: 50%;
+    background-color: #910a67;
+    box-shadow: 0;
+    border: solid 1px;
+    outline: 0;
+    height: 25px;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 20px ;
+    transition: transform 150ms ease-in-out;
+    margin: 5%;
+}
+button:hover {
+    transform: scale(1.10);
+}
+button:active {
+    transform: scale(1);
+}
+.p {
+    display: flex;
+}
+input {
+    border: 0;
+    box-shadow: 0;
+    border-radius: 15px;
+}
+*p {
+    color: rgba(255, 255, 255, 0.441);
+}

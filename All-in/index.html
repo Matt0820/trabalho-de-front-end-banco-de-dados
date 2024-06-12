@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="content">
+    <div class="mountain-bg">
+        <div class="conteudo">
+            <div class="Log-in-c">
+                <h2>Log In</h2>
+                <div class="email-c">
+                    <span>email:</span>
+                    <div>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="senha-c">
+                    <span>password:</span>
+                    <div class="p">
+                        <input type="password" id="Senha">
+                        <i class="fa-regular fa-eye" onclick="mostrarSenha()"></i>
+                    </div>
+                </div>
+                <div class="remind-c">
+                    <input type="checkbox" id="">
+                    <span>Remind me</span>
+                </div>
+                <div class="fp-c">
+                    <a href="">Forgot password</a>
+                </div>
+            <div class="login-c">
+                <button onclick="irParaoProximo()">log in</button>
+                <br>
+                <span>do  not have a account?</span>
+                <a href="">sign-in</a>
+                <br>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>Página feita por alunos:</p>
+        <p>Mateus H O Vieira Nº28</p>
+        <p>Claudiane S. Nunes Nº5</p>
+        <p>Do Segundo ano Técnico de desenvolvimento de sistemas</p>
+    </footer>
+    </footer>
+    <script>
+        function mostrarSenha() {
+    var senhaInput = document.getElementById("Senha");
+    if (senhaInput.type  === "password" ) {
+        senhaInput.type = "text;"
+    } else {
+        senhaInput.type = "password"
+    }
+}
+function irParaoProximo() {
+    window.location.href = "home.html";
+}
+    </script>
+</body>
+</html>
